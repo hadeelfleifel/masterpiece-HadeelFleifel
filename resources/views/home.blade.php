@@ -3,24 +3,20 @@
 @section('content')
 <div class="container">
     
-<div class="wrapper">
+<div class="wrapper2">
 
 <div class="item1">Grand Floor</div>
 
-<div class="item2">1 grade A</div>  
+<div class="item12">1 grade A</div>  
+<div class="item13">1 grade A</div>  
+<div class="item14">1 grade A</div>  
+<div class="item15">1 grade A</div>  
+<div class="item16">1 grade A</div>  
+<div class="item17">1 grade A</div>  
 
-<div class="item3">1 grade B</div>  
 
 
-<div class="item4">2 grade A</div>
-<div class="item5">2 grade B</div>
-<div class="item6">3 grade A</div>
 
-<div class="item7">5 grade B</div>
-<div class="item8">5 grade A</div>
-<div class="item9">4 grade B</div>
-<div class="item10">4 grade A</div>
-<div class="item11">3 grade B</div>
 
 </div>
 

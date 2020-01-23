@@ -389,7 +389,10 @@ echo $schedules;
 
 </div>
 @endforeach
-
+<br></br>
+            <a href="{{route('home')}}"  >
+<input type="button" value="Back"  class="btn btn-secondary btn-sm ">
+</a>
 
 </div>
 @endsection

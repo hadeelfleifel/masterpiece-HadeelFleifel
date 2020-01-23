@@ -104,6 +104,11 @@
                     <input type="text" class="form-control" value="{{$role->RoleName}}" readonly>
                 @endif
               @endforeach
+
+              <br></br>
+            <a href="{{route('employees')}}"  >
+<input type="button" value="Back"  class="btn btn-secondary btn-sm ">
+</a>
               
 </form>
 

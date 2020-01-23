@@ -60,12 +60,15 @@
 
 
 <!-- -------------------------------------------------------- -->
+<br></br>
+            <a href="{{route('classes')}}"  >
+<input type="button" value="Back"  class="btn btn-secondary btn-sm ">
+</a>
+
 
         <button class="btn btn-primary" type="submit">Update form</button>
 
-        <a href="{{route('classes')}}"  >
-<input type="button" value="Back"  class="btn btn-secondary btn-sm ">
-</a>
+
 
             </form>
 </div>

@@ -141,9 +141,12 @@
   @endforeach
   
 </select>
-
-
+<br></br>
+            <a href="{{route('employees')}}"  >
+<input type="button" value="Back"  class="btn btn-secondary btn-sm ">
+</a>
         <button class="btn btn-primary" type="submit">Update form</button>
+
         </form>
         </div>
         @endsection

@@ -71,7 +71,7 @@
             }
             .grid-container {
   display: grid;
-  grid-template-columns: 1fr  1fr;
+  grid-template-columns: 1fr  ;
   
   margin-top:20px;
   margin-bottom:20px;
@@ -153,57 +153,28 @@ margin-left:8px;
   <div class="grid-container">
 
 
-<div class="grid-item"> 
-<h3><a href="https://www.edutopia.org/article/how-teachers-can-learn-through-action-research">How Teachers Can Learn Through Action Research</a></h3>
-<p >
-When teachers redesign learning experiences to make school more relevant to students’ lives, they can’t ignore assessment. For many teachers, the most vexing question about real-world learning experiences such as project-based learning is: How will we know what students know and can do by the end of this project?    
-<br><span><a href="https://www.edutopia.org/article/how-teachers-can-learn-through-action-research">read more !</a></span>
-</p>
+<div class="grid-item">
+<h3>Send Your Message</h3>
+<input type="email" placholder="Enter You Email" class="form-control">
+<br></br>
+<textarea type="text" class="form-control" placeholder="Enter Your Message ..." name="Address"></textarea>
+            <br></br>
 </div>
+<h2>OR ...</h2>
 
 <div class="grid-item">
-<h3><a href="https://www.edutopia.org/article/7-ways-make-teaching-more-sustainable-profession">7 Ways to Make Teaching a More Sustainable Profession</a></h3>
-<p>
-Years ago, a new teacher I was mentoring up and left the profession after two years. She was brilliant, enthusiastic, and well-loved by colleagues, students, and families,
-<br>
-<span ><a href="https://www.edutopia.org/article/7-ways-make-teaching-more-sustainable-profession">read more !</a></span>
-</p>
+<h3>Contact Us : </h3>
+<span class="fas fa-mobile-alt">  By Mobile : +962 777 516372 </span>
+</br>
+<span class="fas fa-phone-volume">  By Phone : 06 5682165 </span>
+</br>
+<span class="fas fa-envelope-square">  By Email : hadeelfleifel@gmail.com </span>
+</br>
+<span class="fas fa-fax">  By Fax  : 123-456-78</span>
+
+
+
 </div>
-
-
-<div class="grid-item"> 
-<h3><a href="https://www.gse.harvard.edu/news/ed/15/01/whats-worth-learning-school">What's Worth Learning in School?
-</a></h3>
-<p >
-When teachers redesign learning experiences to make school more relevant to students’ lives, they can’t ignore assessment. For many teachers, the most vexing question about real-world learning experiences such as project-based learning is: How will we know what students know and can do by the end of this project?    
-<br><span><a href="https://www.gse.harvard.edu/news/ed/15/01/whats-worth-learning-school">read more !</a></span>
-</p>
-</div>
-
-<div class="grid-item">
-<h3><a href="https://www.timeshighereducation.com/student/best-universities/10-most-beautiful-universities-east-asia">The 10 most beautiful universities in East Asia</a></h3>
-<p>
-Years ago, a new teacher I was mentoring up and left the profession after two years. She was brilliant, enthusiastic, and well-loved by colleagues, students, and families,
-<br>
-<span ><a href="https://www.timeshighereducation.com/student/best-universities/10-most-beautiful-universities-east-asia">read more !</a></span>
-</p>
-</div>
-
-
-<div class="grid-item"> 
-<h3><a href="https://www.edutopia.org/article/3-ways-ask-questions-engage-whole-class">3 Ways to Ask Questions That Engage the Whole Class</a></h3>
-<p >
-While it isn’t advisable to base your university choice on how pretty the campus is, here are some of the most beautiful institutions in East Asia for your perusal</p>
-</div>
-
-<div class="grid-item">
-<h3><a href="https://www.scotthyoung.com/blog/2019/03/20/learn-language-fast/">How to Learn a Language in Record Time</a></h3>
-<p>
-Learning another language is a goal many people have. It’s also one that many people stumble on. They get stuck, give up and maybe even convince themselves they don’t have the right “gene” for learning languages.<br>
-<span ><a href="https://www.scotthyoung.com/blog/2019/03/20/learn-language-fast/">read more !</a></span>
-</p>
-</div>
-
 
 </div>
 
@@ -222,9 +193,7 @@ Learning another language is a goal many people have. It’s also one that many 
                         
                         <li> <a> Contact us </a> </li>
                         <li> <a> Work with us </a> </li>
-
                         <li> <p> <a href="https://goo.gl/maps/GWbhdbX4HJ7DGy8D8"><h5> School Address : </br>Amman -Jordan</br> Abdali </br> Orange Coding Academy </h5><span><p> </p></a> <p></span></li>
-
 
                     </ul>
                 </div>
@@ -234,7 +203,6 @@ Learning another language is a goal many people have. It’s also one that many 
                     <a href=""><i id="social-fb"  class="fab fa-facebook-square fa-2x social"></i></a>
                     <a href=""><i id="social-tw" class="fab fa-instagram fa-2x social"></i></a>
                     <a href=""><i id="social-gp" class="fab fa-linkedin fa-2x social"></i></a>
-
                 </div>
          
 

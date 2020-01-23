@@ -71,7 +71,7 @@
             }
             .grid-container {
   display: grid;
-  grid-template-columns: 1fr  1fr;
+  grid-template-columns: 1fr  ;
   
   margin-top:20px;
   margin-bottom:20px;
@@ -103,7 +103,7 @@ margin-left:8px;
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                    <a href="{{ url('/about') }}">About</a>
+                    <a>About</a>
                         <a href="{{ url('/contact-us') }}">Contact us</a>
                         <a href="{{ route('login') }}">Login</a>
                      
@@ -151,62 +151,19 @@ margin-left:8px;
   <br></br>
 
   <div class="grid-container">
-
-
-<div class="grid-item"> 
-<h3><a href="https://www.edutopia.org/article/how-teachers-can-learn-through-action-research">How Teachers Can Learn Through Action Research</a></h3>
-<p >
-When teachers redesign learning experiences to make school more relevant to students’ lives, they can’t ignore assessment. For many teachers, the most vexing question about real-world learning experiences such as project-based learning is: How will we know what students know and can do by the end of this project?    
-<br><span><a href="https://www.edutopia.org/article/how-teachers-can-learn-through-action-research">read more !</a></span>
-</p>
-</div>
-
 <div class="grid-item">
-<h3><a href="https://www.edutopia.org/article/7-ways-make-teaching-more-sustainable-profession">7 Ways to Make Teaching a More Sustainable Profession</a></h3>
-<p>
-Years ago, a new teacher I was mentoring up and left the profession after two years. She was brilliant, enthusiastic, and well-loved by colleagues, students, and families,
-<br>
-<span ><a href="https://www.edutopia.org/article/7-ways-make-teaching-more-sustainable-profession">read more !</a></span>
-</p>
-</div>
 
 
-<div class="grid-item"> 
-<h3><a href="https://www.gse.harvard.edu/news/ed/15/01/whats-worth-learning-school">What's Worth Learning in School?
-</a></h3>
-<p >
-When teachers redesign learning experiences to make school more relevant to students’ lives, they can’t ignore assessment. For many teachers, the most vexing question about real-world learning experiences such as project-based learning is: How will we know what students know and can do by the end of this project?    
-<br><span><a href="https://www.gse.harvard.edu/news/ed/15/01/whats-worth-learning-school">read more !</a></span>
-</p>
-</div>
+<h2>Our Story</h2>
 
-<div class="grid-item">
-<h3><a href="https://www.timeshighereducation.com/student/best-universities/10-most-beautiful-universities-east-asia">The 10 most beautiful universities in East Asia</a></h3>
-<p>
-Years ago, a new teacher I was mentoring up and left the profession after two years. She was brilliant, enthusiastic, and well-loved by colleagues, students, and families,
-<br>
-<span ><a href="https://www.timeshighereducation.com/student/best-universities/10-most-beautiful-universities-east-asia">read more !</a></span>
-</p>
-</div>
+<p>What distinguishes a great school from a good school? I believe that clarity of purpose, exceptional teachers, and demonstrated outcomes are hallmarks of great schools. A great school is a place with a deep commitment to student learning, where faculty nourish the intellectual, moral, emotional, and social growth of every student. It is a place where students, teachers, and parents embark together on an academic journey with clear and well-defined objectives. It is filled with the joy of discovery and the excitement of personal challenge and growth. It is a community dedicated to developing strength of character and excellence in all dimensions of its students' lives. And it is a place that has a distinctive and lasting impact</p>
+<br></br>
+I encourage you to explore our website to learn more about all that our School has to offer. I also invite you to visit us in person; please contact our Admission Office to schedule your campus tour. We hope to see you soon!
 
-
-<div class="grid-item"> 
-<h3><a href="https://www.edutopia.org/article/3-ways-ask-questions-engage-whole-class">3 Ways to Ask Questions That Engage the Whole Class</a></h3>
-<p >
-While it isn’t advisable to base your university choice on how pretty the campus is, here are some of the most beautiful institutions in East Asia for your perusal</p>
-</div>
-
-<div class="grid-item">
-<h3><a href="https://www.scotthyoung.com/blog/2019/03/20/learn-language-fast/">How to Learn a Language in Record Time</a></h3>
-<p>
-Learning another language is a goal many people have. It’s also one that many people stumble on. They get stuck, give up and maybe even convince themselves they don’t have the right “gene” for learning languages.<br>
-<span ><a href="https://www.scotthyoung.com/blog/2019/03/20/learn-language-fast/">read more !</a></span>
-</p>
-</div>
-
+All my best,
 
 </div>
-
+</div>
 
 
 
@@ -222,9 +179,7 @@ Learning another language is a goal many people have. It’s also one that many 
                         
                         <li> <a> Contact us </a> </li>
                         <li> <a> Work with us </a> </li>
-
                         <li> <p> <a href="https://goo.gl/maps/GWbhdbX4HJ7DGy8D8"><h5> School Address : </br>Amman -Jordan</br> Abdali </br> Orange Coding Academy </h5><span><p> </p></a> <p></span></li>
-
 
                     </ul>
                 </div>
@@ -234,7 +189,6 @@ Learning another language is a goal many people have. It’s also one that many 
                     <a href=""><i id="social-fb"  class="fab fa-facebook-square fa-2x social"></i></a>
                     <a href=""><i id="social-tw" class="fab fa-instagram fa-2x social"></i></a>
                     <a href=""><i id="social-gp" class="fab fa-linkedin fa-2x social"></i></a>
-
                 </div>
          
 

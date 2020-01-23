@@ -20,50 +20,58 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(6,1fr);
-  grid-template-rows: 100px 100px;
+  grid-template-rows: 80px 80px;
   grid-template-areas: 
     "a b c d e f"
     "a g h i j k";
-    border:double;
+    border:1px solid #000000;
 }
 .item1 {
   grid-area: a;
   
   border: 1px solid #000000;
+  text-align: center;
+  font-weight: bold;
 
-  }
+
+    }
 .item2 {
   grid-area: b;
   
   border: 1px solid #000000;
-  height:100px;
+  height:80px;
+  font-weight: bold;
 
   }
   .item3 {
   grid-area: c;
  
   border: 1px solid #000000;
-  height:100px;
+  height:80px;
+  font-weight: bold;
 
   }
   .item4 {
   grid-area: d;
   
   border: 1px solid #000000;
-  height:100px;
+  height:80px;
+  font-weight: bold;
 
   }
   .item5 {
   grid-area: e;
  
   border: 1px solid #000000;
-  height:100px;
+  height:80px;
+  font-weight: bold;
 
   }
   .item6 {
   grid-area: f;
 
   border: 1px solid #000000;
+  font-weight: bold;
 
   }
 
@@ -71,34 +79,90 @@
   grid-area: g;
 
   border: 1px solid #000000;
+  font-weight: bold;
 
   }
   .item8 {
   grid-area: h;
 
   border: 1px solid #000000;
-  height:100px;
+  height:80px;
+  font-weight: bold;
 
   }
   .item9 {
   grid-area: i;
 
   border: 1px solid #000000;
-  height:100px;
+  height:80px;
+  font-weight: bold;
 
   }
   .item10 {
   grid-area: j;
  
   border: 1px solid #000000;
-  height:100px;
+  height:80px;
+  font-weight: bold;
 
   }
   .item11 {
   grid-area: k;
 
   border: 1px solid #000000;
-  height:100px;
+  height:80px;
+  font-weight: bold;
+
+  }
+  .wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: 80px 80px;
+  grid-template-areas: 
+    "a b c c e f"
+    "a b h h d f";
+    border:1px solid #000000;
+}
+.item12 {
+  grid-area: b;
+ 
+  border: 1px solid #000000;
+  font-weight: bold;
+
+  }
+  .item13 {
+  grid-area: c;
+ 
+  border: 1px solid #000000;
+  font-weight: bold;
+
+  }
+  .item14 {
+  grid-area: h;
+ 
+  border: 1px solid #000000;
+  font-weight: bold;
+
+  }
+  .item15 {
+  grid-area: e;
+ 
+  border: 1px solid #000000;
+  font-weight: bold;
+
+  }
+  .item16 {
+  grid-area: d;
+ 
+  border: 1px solid #000000;
+  font-weight: bold;
+
+  }
+  .item17 {
+  grid-area: f;
+ 
+  border: 1px solid #000000;
+  font-weight: bold;
 
   }
 
@@ -106,7 +170,7 @@
 .schedule {
   display: grid;
   grid-template-columns: repeat(8,1fr);
-  grid-template-rows: 100px;
+  grid-template-rows: 80px;
   grid-template-areas: 
     "a b c d e f g h"
 ;}
@@ -114,40 +178,42 @@
   grid-area: a;
   
   border: 1px solid #000000;
+  font-weight: bold;
 
   }
 .les1 {
   grid-area: b;
   
   border: 1px solid #000000;
-  height:100px;
+  font-weight: bold;
 
   }
   .les2 {
   grid-area: c;
  
   border: 1px solid #000000;
-  height:100px;
+  font-weight: bold;
 
   }
   .les3 {
   grid-area: d;
   
   border: 1px solid #000000;
-  height:100px;
+  font-weight: bold;
 
   }
   .les4 {
   grid-area: e;
  
   border: 1px solid #000000;
-  height:100px;
+  font-weight: bold;
 
   }
   .les5 {
   grid-area: f;
 
   border: 1px solid #000000;
+  font-weight: bold;
 
   }
 
@@ -155,14 +221,21 @@
   grid-area: g;
 
   border: 1px solid #000000;
+  font-weight: bold;
 
   }
   .les7 {
   grid-area: h;
 
   border: 1px solid #000000;
-  height:100px;
+  font-weight: bold;
 
+  }
+  body{
+    background-image: url('images/images.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
   }
   
 
